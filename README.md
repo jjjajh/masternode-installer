@@ -30,21 +30,21 @@ THATS IT , YOUR THATSTHELABOR MASTERNODE IS NOW RUNNING ON VPS. SIMPLY CONFIGURE
 
 Desktop wallet setup After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps for Windows Wallet
 
-Open the THATSTHELABOR Wallet.
-Go to RECEIVE and create a New Address: MN1
-Send 10000000 TTL to MN1.
-Wait for confirmations.
-Go to Tools -> "Debug console - Console"
-Type the following command: masternode outputs
-Go to ** Tools -> "Open Masternode Configuration File" ► Add the following entry: 
-• Alias Address Privkey TxHash Output_index 
-• Alias: MN1 
-• Address: VPS_IP:7070 
-• Privkey: Masternode Private Key 
-• TxHash: First value from Step 6 
-• Output index: Second value from Step 6 It can be 0 or 1
-SAVE and exit the Wallet.
-Open THATSTHELABOR Wallet, go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab
-Click Update status to see your node. If it is not shown, close the wallet and start it again.
-Click Start All or Start Alias
+Open the THATSTHELABOR Wallet.</br>
+Go to RECEIVE and create a New Address: MN1</br>
+Send 10000000 TTL to MN1.</br>
+Wait for confirmations.</br>
+Go to Tools -> "Debug console - Console"</br>
+Type the following command: masternode outputs</br>
+Go to ** Tools -> "Open Masternode Configuration File" ► Add the following entry: </br>
+• Alias Address Privkey TxHash Output_index </br>
+• Alias: MN1 </br>
+• Address: VPS_IP:7070 </br>
+• Privkey: Masternode Private Key </br>
+• TxHash: First value from Step 6 </br>
+• Output index: Second value from Step 6 It can be 0 or 1</br>
+SAVE and exit the Wallet.</br>
+Open THATSTHELABOR Wallet, go to Masternode Tab. If you tab is not shown, please enable it from: Settings - Options - Wallet - Show Masternodes Tab</br>
+Click Update status to see your node. If it is not shown, close the wallet and start it again.</br>
+Click Start All or Start Alias</br>
 If then also not starting then click on >tools>debug console> Type: startmasternode alias false "name of your MN alias"
