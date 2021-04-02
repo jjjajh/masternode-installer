@@ -11,6 +11,7 @@ COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='thatsthelabor'
 COIN_PORT=7070
 RPC_PORT=7071
+COIN_REPO='https://github.com/jjjajh/ttl-core/releases/download/v1/ttl-linux-daemon.tar.gz'
 
 NODEIP=$(curl -s4 api.ipify.org)
 
